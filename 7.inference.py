@@ -8,7 +8,7 @@ logging.basicConfig(filename="api_model_logs.log", level=logging.INFO,
                     format="%(asctime)s - %(levelname)s - %(message)s")
  
 # Endpoint API model
-API_URL = "http://127.0.0.1:5000/invocations"
+API_URL = "http://127.0.0.1:8000/predict"
  
 # Contoh input untuk model (ubah sesuai dengan kebutuhan model)
 input_data = {
